@@ -1,0 +1,21 @@
+{
+  "name": "@all-turtles/components",
+  "version": "1.0.0",
+  "description": "Reusable React components for building All Turtles projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/All-Turtles/components.git"
+  },
+  "author": "Ryan Warner",
+  "bugs": {
+    "url": "https://github.com/All-Turtles/components/issues"
+  },
+  "homepage": "https://github.com/All-Turtles/components#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}
