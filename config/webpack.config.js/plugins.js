@@ -9,18 +9,6 @@ const shared = []
 
 const client = [
   new CaseSensitivePathsPlugin(),
-  new WriteFileWebpackPlugin(),
-  // new HtmlWebpackPlugin({
-  //   template: `${paths.src}/index.ejs`,
-  //   filename: 'index.html'
-  // }),
-  // new Dotenv({
-  //   path: `${paths.dotenv}.${deployEnv}`
-  // }),
-  // new webpack.DefinePlugin({
-  //   __SERVER__: 'false',
-  //   __BROWSER__: 'true'
-  // }),
   new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
 ]
 
