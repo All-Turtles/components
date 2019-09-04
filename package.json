@@ -7,7 +7,7 @@
     "/dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js"
   },
   "repository": {
     "type": "git",
