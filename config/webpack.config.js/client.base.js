@@ -38,16 +38,16 @@ const externals = {
     }
   }
 }
-
+console.log('entry:  ', { ...entry[outputType] })
 module.exports = {
   name: 'client',
   target: 'web',
-  entry: { ...entry[outputType] },
+  entry: `${paths.src}/index.js`,
   output: { ...output },
   module: {
     rules: clientLoaders
   },
-  externals: { ...externals[outputType] },
+  // externals: { ...externals[outputType] },
   resolve: { ...resolvers },
   plugins: [...plugins.shared, ...plugins.client],
   node: {

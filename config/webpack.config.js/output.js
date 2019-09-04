@@ -11,11 +11,11 @@ const app = {
 }
 
 const library = {
-  library: '[name]',
+  library: 'allTurtlesComponents',
   libraryTarget: 'umd',
-  filename: '[name].js',
+  filename: 'index.js',
   path: paths.libraryBuild,
-  publicPath,
+  // publicPath,
   umdNamedDefine: true
 }
 
@@ -23,5 +23,7 @@ const outputs = {
   app,
   library
 }
+
+console.log('outputs[outputType]', outputs[outputType])
 
 module.exports = outputs[outputType]

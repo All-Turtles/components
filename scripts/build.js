@@ -6,6 +6,7 @@ const webpackConfig = require('../config/webpack.config.js')(process.env.NODE_EN
 const outputType = process.env.OUTPUT_TYPE
 const buildDir = outputType === 'library' ? paths.libraryBuild : paths.clientBuild
 console.log('buildDir', buildDir)
+// console.log('webpackConfig::', webpackConfig)
 const build = async () => {
   rimraf.sync(buildDir)
 
