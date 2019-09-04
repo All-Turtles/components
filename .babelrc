@@ -21,13 +21,5 @@
     "@babel/plugin-proposal-export-namespace-from",
     "@babel/plugin-proposal-export-default-from",
     "@babel/plugin-transform-runtime"
-  ],
-  "env": {
-    "test": {
-      "plugins": [
-        "@babel/plugin-transform-modules-commonjs",
-        "@babel/plugin-syntax-dynamic-import"
-      ]
-    }
-  }
+  ]
 }

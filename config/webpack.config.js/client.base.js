@@ -6,11 +6,6 @@ const plugins = require('./plugins')
 
 const outputType = process.env.OUTPUT_TYPE
 
-const entry = {
-  app: { bundle: [`${paths.src}/appIndex.js`] },
-  library: { index: [`${paths.src}/index.js`] }
-}
-
 const externals = {
   app: null,
   library: {
@@ -38,7 +33,7 @@ const externals = {
     }
   }
 }
-console.log('entry:  ', { ...entry[outputType] })
+
 module.exports = {
   name: 'client',
   target: 'web',
@@ -47,7 +42,7 @@ module.exports = {
   module: {
     rules: clientLoaders
   },
-  // externals: { ...externals[outputType] },
+  externals: { ...externals[outputType] },
   resolve: { ...resolvers },
   plugins: [...plugins.shared, ...plugins.client],
   node: {
