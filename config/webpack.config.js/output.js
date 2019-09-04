@@ -24,6 +24,4 @@ const outputs = {
   library
 }
 
-console.log('outputs[outputType]', outputs[outputType])
-
 module.exports = outputs[outputType]
