@@ -11,7 +11,7 @@ const app = {
 }
 
 const library = {
-  library: '[name]',
+  library: 'allTurtlesComponents',
   libraryTarget: 'umd',
   filename: 'index.js',
   path: paths.libraryBuild,

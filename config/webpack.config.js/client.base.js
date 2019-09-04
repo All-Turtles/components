@@ -36,7 +36,7 @@ const externals = {
 
 module.exports = {
   name: 'client',
-  target: 'web',
+  target: 'node',
   entry: `${paths.src}/index.js`,
   output: { ...output },
   module: {
