@@ -6,8 +6,12 @@
   "files": [
     "/dist"
   ],
+  "moduleRoots": [
+    "src",
+    "node_modules"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,64 @@
   },
   "homepage": "https://github.com/All-Turtles/components#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/plugin-proposal-decorators": "7.4.4",
+    "@babel/plugin-proposal-export-default-from": "7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-syntax-export-namespace-from": "7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "7.5.0",
+    "@babel/plugin-transform-runtime": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "7.5.5",
+    "babel-eslint": "10.0.3",
+    "babel-loader": "8.0.6",
+    "babel-plugin-named-asset-import": "0.3.3",
+    "babel-plugin-styled-components": "1.10.6",
+    "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "chalk": "2.4.2",
+    "core-js": "3.2.1",
+    "cross-env": "5.2.1",
+    "css-loader": "3.2.0",
+    "dotenv-webpack": "1.7.0",
+    "eslint": "6.3.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-config-standard-react": "9.1.0",
+    "eslint-loader": "3.0.0",
+    "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-node": "9.2.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "2.0.1",
+    "eslint-plugin-security": "1.4.0",
+    "eslint-plugin-standard": "4.0.1",
+    "file-loader": "4.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "image-webpack-loader": "5.0.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "nodemon": "1.19.1",
+    "plop": "2.4.0",
+    "react": "^16.9.0",
+    "react-dev-utils": "9.0.3",
+    "react-dom": "^16.9.0",
+    "regenerator-runtime": "0.13.3",
+    "rimraf": "3.0.0",
+    "stats-webpack-plugin": "0.7.0",
+    "style-loader": "1.0.0",
+    "url-loader": "2.1.0",
+    "webpack": "4.39.3",
+    "webpack-bundle-analyzer": "3.4.1",
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "3.8.0",
+    "webpack-hot-middleware": "2.25.0",
+    "webpack-manifest-plugin": "2.0.4",
+    "webpack-node-externals": "1.7.2"
   }
 }
