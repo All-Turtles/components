@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/All-Turtles/components#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
