@@ -11,7 +11,8 @@
     "node_modules"
   ],
   "scripts": {
-    "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js"
+    "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js",
+    "watch": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/watch.js"
   },
   "repository": {
     "type": "git",
@@ -69,6 +70,7 @@
     "html-webpack-plugin": "3.2.0",
     "image-webpack-loader": "5.0.0",
     "mini-css-extract-plugin": "0.8.0",
+    "node-watch": "^0.6.3",
     "nodemon": "1.19.1",
     "plop": "2.4.0",
     "react": "16.9.0",
