@@ -169,17 +169,17 @@ export default class Privacy extends Component {
         </p>
         <h5>Google Play In-App Payments</h5>
         <p>
-            Their Privacy Policy can be viewed at&nbsp;
+          Their Privacy Policy can be viewed at&nbsp;
           <a href='https://www.google.com/policies/privacy/'>https://www.google.com/policies/privacy/</a>
         </p>
         <h5>Stripe</h5>
         <p>
-            Their Privacy Policy can be viewed at&nbsp;
+          Their Privacy Policy can be viewed at&nbsp;
           <a href='https://stripe.com/us/privacy'>https://stripe.com/us/privacy</a>
         </p>
         <h5>PayPal / Braintree</h5>
         <p>
-            Their Privacy Policy can be viewed at&nbsp;
+          Their Privacy Policy can be viewed at&nbsp;
           <a href='https://www.paypal.com/webapps/mpp/ua/privacy-full'>https://www.paypal.com/webapps/mpp/ua/privacy-full</a>
         </p>
         <h4>Links to Other Sites</h4>
@@ -195,7 +195,7 @@ export default class Privacy extends Component {
         <h4>Contact Us</h4>
         <p>If you have any questions about this Privacy Policy, please contact us:</p>
         <p>
-            By email:&nbsp;
+          By email:&nbsp;
           <a href='mailto:hello@all-turtles.com'>hello@all-turtles.com</a>
         </p>
       </>
