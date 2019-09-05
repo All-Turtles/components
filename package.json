@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js",
+    "start": "cross-env NODE_ENV=development OUTPUT_TYPE=app node scripts/start.js",
     "watch": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/watch.js"
   },
   "repository": {
@@ -31,6 +32,7 @@
     "react-dom": ">=16.9"
   },
   "devDependencies": {
+    "@babel/runtime": "7.5.5",
     "@babel/core": "7.5.5",
     "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/plugin-proposal-decorators": "7.4.4",
