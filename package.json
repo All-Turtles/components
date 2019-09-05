@@ -13,7 +13,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js",
     "start": "cross-env NODE_ENV=development OUTPUT_TYPE=app node scripts/start.js",
-    "watch": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/watch.js"
+    "watch": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/watch.js",
+    "lint:fix": "eslint src/ --fix"
   },
   "repository": {
     "type": "git",
