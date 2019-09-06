@@ -7,9 +7,17 @@ import Copyright from './Copyright'
 
 <Preview>
   <Story name='Default'>
-    <Copyright
-    />
+    <Copyright />
   </Story>
 </Preview>
+
+### Source
+
+```js
+export default () => `© ${new Date().getFullYear()} All Turtles Corporation`
+
+```
+
+### Props
 
 <Props of={Copyright} />
