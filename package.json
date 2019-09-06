@@ -15,6 +15,7 @@
     "start": "cross-env NODE_ENV=development OUTPUT_TYPE=app node scripts/start.js",
     "watch": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/watch.js",
     "storybook": "start-storybook",
+    "storybook:deploy": "storybook-to-ghpages",
     "lint:fix": "eslint src/ --fix"
   },
   "repository": {
@@ -51,6 +52,7 @@
     "@babel/runtime": "7.5.5",
     "@storybook/addon-docs": "^5.2.0-rc.6",
     "@storybook/react": "^5.2.0-rc.6",
+    "@storybook/storybook-deployer": "^2.8.1",
     "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
     "babel-plugin-named-asset-import": "0.3.3",
