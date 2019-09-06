@@ -32,21 +32,29 @@ export const header3 = css`
   font-weight: ${fontWeights.regular};
   margin: 0;
 `
+export const header4 = css`
+  font-size: 22px;
+  line-height: 152%;
+  font-weight: ${fontWeights.regular};
+  margin: 40px 0 20px 0;
+`
+export const header5 = css`
+  font-size: 18px;
+  line-height: 152%;
+  font-weight: ${fontWeights.regular};
+  margin: 30px 0 15px 0;
+`
 
 export const GlobalStyle = createGlobalStyle`
   body {
     font-family: ${fontFace};
   }
 
-  h1 {
-    ${header1};
-  }
-  h2 {
-    ${header2};
-  }
-  h3 {
-    ${header3};
-  }
+  h1 { ${header1}; }
+  h2 { ${header2}; }
+  h3 { ${header3}; }
+  h4 { ${header4}; }
+  h5 { ${header5}; }
   a {
     color: ${Colors.brand};
     text-decoration: none;
