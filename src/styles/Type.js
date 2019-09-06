@@ -34,6 +34,10 @@ export const header3 = css`
 `
 
 export const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: ${fontFace};
+  }
+
   h1 {
     ${header1};
   }
