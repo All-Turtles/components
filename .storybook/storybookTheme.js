@@ -1,7 +1,7 @@
 // https://storybook.js.org/docs/configurations/theming/
 import { create } from '@storybook/theming'
 
-import { Colors } from 'app/styles'
+import { Colors, Type } from 'app/styles'
 import { atWordmark } from 'app/assets/images'
 
 export default create({
