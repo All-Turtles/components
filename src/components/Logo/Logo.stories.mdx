@@ -1,5 +1,6 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
 import Logo from './Logo'
+import { Colors } from 'app/styles'
 
 <Meta title='Components|Logo' component={Logo} />
 
@@ -12,4 +13,13 @@ import Logo from './Logo'
   </Story>
 </Preview>
 
+### With custom color
+
+<Preview>
+  <Story name='With color'>
+    <Logo color={Colors.orange} />
+  </Story>
+</Preview>
+
+### Props
 <Props of={Logo} />
