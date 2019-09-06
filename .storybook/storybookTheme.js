@@ -1,20 +1,20 @@
 // https://storybook.js.org/docs/configurations/theming/
 import { create } from '@storybook/theming'
 
-import { Colors, Type } from 'app/styles'
-import { logoLockup } from 'app/assets/images'
+import { Colors } from 'app/styles'
+import { atWordmark } from 'app/assets/images'
 
 export default create({
-  base: Colors.background,
+  // base: Colors.background,
 
   colorPrimary: Colors.brand,
-  colorSecondary: Colors.teal,
+  colorSecondary: Colors.blue,
   sidebarSvgIconColor: Colors.brand,
 
   // UI
-  appBg: Colors.mediumGray,
-  appContentBg: Colors.white,
-  appBorderColor: Colors.mediumGray,
+  // appBg: Colors.mediumGray,
+  // appContentBg: Colors.white,
+  // appBorderColor: Colors.mediumGray,
   appBorderRadius: 6,
 
   // Typography
@@ -22,21 +22,21 @@ export default create({
   fontCode: 'monospace',
 
   // Text colors
-  textColor: Colors.fontPrimary,
+  textColor: 'black',
   textInverseColor: 'rgba(255,255,255,0.9)',
 
   // Toolbar default and active colors
-  barTextColor: Colors.fontPrimary,
+  barTextColor: 'black',
   barSelectedColor: Colors.brand,
-  barBg: Colors.white,
+  // barBg: Colors.white,
 
   // Form colors
-  inputBg: Colors.background,
+  // inputBg: Colors.background,
   inputBorder: 'transparent',
-  inputTextColor: Colors.fontPrimary,
+  inputTextColor: 'black',
   inputBorderRadius: 4,
 
-  brandTitle: 'Puffin',
-  brandUrl: 'https://app.meetwithpuffin.com',
-  brandImage: logoLockup,
+  brandTitle: 'All Turtles',
+  brandUrl: 'https://all-turtles.com',
+  brandImage: atWordmark,
 });

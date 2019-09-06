@@ -14,6 +14,7 @@
     "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js",
     "start": "cross-env NODE_ENV=development OUTPUT_TYPE=app node scripts/start.js",
     "watch": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/watch.js",
+    "storybook": "start-storybook",
     "lint:fix": "eslint src/ --fix"
   },
   "repository": {
@@ -30,7 +31,8 @@
   },
   "peerDependencies": {
     "react": ">=16.9",
-    "react-dom": ">=16.9"
+    "react-dom": ">=16.9",
+    "styled-components": "4.3.2"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
@@ -85,6 +87,7 @@
     "rimraf": "3.0.0",
     "stats-webpack-plugin": "0.7.0",
     "style-loader": "1.0.0",
+    "styled-components": "4.3.2",
     "url-loader": "2.1.0",
     "webpack": "4.39.3",
     "webpack-bundle-analyzer": "3.4.1",
