@@ -18,16 +18,27 @@ This will tell npm which registry to look in when installing the package.
 - For local installation, your GitHub user must have access to this repository. If you're reading this, that step is complete.
 - For deployment servers, use a Personal Access Token. [Read the official GitHub docs](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line).
   - Add a command similar to this to your deployment steps
+
     ```echo "//npm.pkg.github.com/:_authToken=$GITHUB_PERSONAL_ACCESS_TOKEN" >> ~/.npmrc```
 
-## Usage
+## Installation
 
 ```npm install --save @all-turtles/components```
 
-```import { Logo } from @all-turtles/components```
+## Usage
+
+```
+import { Logo } from @all-turtles/components
+
+<Logo />
+
+```
+
+## Styling
+
+By design, there is very little styling out of the box. Most components come with a prefixed class name that can be overridden via props.
 
 ## Running locally
-
 
 ```
 npm install

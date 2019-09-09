@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Logo = (props) =>
-  <svg width='25' height='19' viewBox='0 0 25 19' fill='none'>
+  <svg width='25' height='19' viewBox='0 0 25 19' fill='none' className={props.className}>
     <path d='M5.1002 4.9002C4.3002 3.0002 5.3002 0.600196 6.7002 0.300196V0.200195C3.3002 0.200195 1.3002 1.9002 1.2002 4.0002L5.1002 5.0002V4.9002Z' fill={props.color} />
     <path d='M13.5002 11.4002V4.9002C13.5002 1.6002 11.4002 0.300195 7.2002 0.200195V0.300196C8.3002 0.600196 8.6002 2.2002 8.6002 3.4002V9.8002C8.6002 12.9002 10.3002 14.1002 12.8002 14.1002H14.6002V14.0002C14.5002 13.9002 14.2002 13.8002 13.9002 13.5002C13.9002 13.2002 13.5002 13.0002 13.5002 11.4002Z' fill={props.color} />
     <path d='M0 10.8002C0 14.8002 6.1 15.3002 8 11.7002V11.6002C6.7 12.7002 4.5 11.7002 4.5 9.7002C4.5 7.9002 5.8 7.0002 8 6.7002C8.1 6.7002 8.2 6.7002 8.3 6.7002V5.7002C8.2 5.7002 8.1 5.7002 8 5.7002C2.2 6.4002 0 8.2002 0 10.8002Z' fill={props.color} />
@@ -10,11 +10,13 @@ const Logo = (props) =>
   </svg>
 
 Logo.propTypes = {
-  color: PropTypes.string
+  color: PropTypes.string,
+  className: PropTypes.string
 }
 
 Logo.defaultProps = {
-  color: 'black'
+  color: 'black',
+  className: 'at-logo'
 }
 
 export default Logo

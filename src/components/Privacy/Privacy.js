@@ -1,7 +1,18 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 export default class Privacy extends Component {
+  static propTypes = {
+    contactEmail: PropTypes.string
+  }
+
+  static defaultProps = {
+    contactEmail: 'hello@all-turtles.com'
+  }
+
   render () {
+    const { contactEmail } = this.props
+
     return (
       <>
         <p>Effective date: May 29, 2019</p>
@@ -196,7 +207,7 @@ export default class Privacy extends Component {
         <p>If you have any questions about this Privacy Policy, please contact us:</p>
         <p>
           By email:&nbsp;
-          <a href='mailto:hello@all-turtles.com'>hello@all-turtles.com</a>
+          <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
         </p>
       </>
     )

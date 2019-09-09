@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Badge = (props) =>
-  <svg {...props} width='198' height='30' viewBox='0 0 198 30' fill='none'>
+  <svg {...props} className={props.className} width='198' height='30' viewBox='0 0 198 30' fill='none'>
     <path d='M62.6331 19.6093H64.1963L59.8686 9.36185H58.5949L54.2383 19.6093H55.8015L56.8146 17.0475H61.6055L62.6331 19.6093ZM57.2923 15.8751L58.4936 12.8356C58.7686 12.1698 58.9857 11.5763 59.1883 10.9974H59.2173C59.4054 11.5763 59.637 12.1698 59.8976 12.8356L61.1278 15.8751H57.2923Z' fill={props.color} />
     <path d='M65.2346 13.1685V19.6093H66.5517V16.4106C66.5517 15.0211 67.3188 14.0803 68.4478 14.0803C69.4899 14.0803 69.9675 14.6448 69.9675 15.9619V19.6093H71.2846V15.4409C71.2846 13.8053 70.4017 12.8935 68.8675 12.8935C67.9122 12.8935 67.0872 13.3856 66.5517 14.283V13.1685H65.2346Z' fill={props.color} />
     <path d='M85.0224 19.6093H86.5855L82.2578 9.36185H80.9841L76.6275 19.6093H78.1907L79.2039 17.0475H83.9947L85.0224 19.6093ZM79.6815 15.8751L80.8828 12.8356C81.1578 12.1698 81.3749 11.5763 81.5776 10.9974H81.6065C81.7947 11.5763 82.0263 12.1698 82.2868 12.8356L83.5171 15.8751H79.6815Z' fill={props.color} />
@@ -27,11 +27,13 @@ const Badge = (props) =>
   </svg>
 
 Badge.propTypes = {
-  color: PropTypes.string
+  color: PropTypes.string,
+  className: PropTypes.string
 }
 
 Badge.defaultProps = {
-  color: 'black'
+  color: 'black',
+  className: 'at-badge'
 }
 
 export default Badge

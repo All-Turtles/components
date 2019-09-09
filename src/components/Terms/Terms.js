@@ -1,7 +1,18 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 export default class Terms extends Component {
+  static propTypes = {
+    contactEmail: PropTypes.string
+  }
+
+  static defaultProps = {
+    contactEmail: 'hello@all-turtles.com'
+  }
+
   render () {
+    const { contactEmail } = this.props
+
     return (
       <>
         <p>Last updated: May 29, 2019</p>
@@ -56,7 +67,7 @@ export default class Terms extends Component {
         <p>By continuing to access or use our Service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use the Service.</p>
         <h4>Contact Us</h4>
         <p>
-        If you have any questions about these Terms, please contact us at: <a href='mailto:hello@all-turtles.com'>hello@all-turtles.com</a>
+        If you have any questions about these Terms, please contact us at: <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
         </p>
       </>
     )
