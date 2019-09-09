@@ -6,11 +6,17 @@ import * as Colors from './Colors'
 # Colors
 
 ```js
-import { Colors } from @all-turtles/components
+import { Colors } from '@all-turtles/components'
 
 console.log(Colors.brand) // #D9534D
 ```
 
 <ColorPalette>
-  { Object.keys(Colors).map(key => <ColorItem title={key} colors={[Colors[key]]} />) }
+  { Object.keys(Colors).map(key =>
+    <ColorItem
+      key={key}
+      title={key}
+      colors={[Colors[key]]}
+    />
+  )}
 </ColorPalette>
