@@ -6,7 +6,19 @@ A React component library for All Turtles software.
 
 ## Setup
 
-This package is hosted via the GitHub Package Registry. For usage in your projects, add this line to `.npmrc`:
+This package is hosted via the GitHub Package Registry. You must [authenticate with the GitHub package registry](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry#authenticating-to-github-package-registry) to use this package in your projects.
+
+1. [Create a personal access token.](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
+1.
+    ```
+    $ npm login --registry=https://npm.pkg.github.com --scope=@all-turtles
+    > Username: USERNAME
+    > Password: TOKEN
+    > Email: GITHUB EMAIL ADDRESS
+    ```
+
+
+Finally, add this line to your project's `.npmrc`:
 
 ```@all-turtles:registry=https://npm.pkg.github.com/```
 
@@ -27,6 +39,10 @@ import { Logo } from @all-turtles/components
 ## Styling
 
 By design, there is very little styling out of the box. Most components come with a prefixed class name that can be overridden via props.
+
+## Feature requests, bug reports, or comments
+
+Please do not hesitate to submit a GitHub issue if you run into any trouble using this package or would like to request a feature.
 
 ## Running locally
 
