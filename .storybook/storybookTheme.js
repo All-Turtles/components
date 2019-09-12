@@ -36,7 +36,7 @@ export default create({
   inputTextColor: 'black',
   inputBorderRadius: 4,
 
-  brandTitle: 'All Turtles',
-  brandUrl: 'https://all-turtles.com',
+  brandTitle: 'All Turtles React Components',
+  brandUrl: 'https://all-turtles.github.io/components',
   brandImage: atWordmark,
 });
