@@ -14,8 +14,8 @@
     "build": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/build.js",
     "start": "cross-env NODE_ENV=development OUTPUT_TYPE=app node scripts/start.js",
     "watch": "cross-env NODE_ENV=production OUTPUT_TYPE=library node scripts/watch.js",
-    "storybook": "start-storybook",
-    "storybook:deploy": "storybook-to-ghpages",
+    "storybook": "start-storybook  -s .storybook/images",
+    "storybook:deploy": "storybook-to-ghpages -s .storybook/images",
     "lint:fix": "eslint src/ --fix"
   },
   "repository": {

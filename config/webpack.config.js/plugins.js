@@ -5,7 +5,7 @@ const shared = []
 
 const client = [
   new CaseSensitivePathsPlugin(),
-  new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+  new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/, /\.stories\./)
 ]
 
 module.exports = {
