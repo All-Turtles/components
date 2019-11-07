@@ -16,12 +16,12 @@ export default class Privacy extends Component {
     return (
       <>
         <p>Effective date: May 29, 2019</p>
-        <p>All Turtles, LLC ("us", "we", or "our") operates the several mobile and web based applications (hereinafter referred to as the "Service").</p>
+        <p>All Turtles Corporation ("us", "we", or "our") operates the several mobile and web based applications (hereinafter referred to as the "Service").</p>
         <p>This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
         <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
         <h4>Definitions</h4>
         <h5>Service</h5>
-        <p>Service refers to the various mobile and web based applications operated by All Turtles, LLC.</p>
+        <p>Service refers to the various mobile and web based applications operated by All Turtles Corporation.</p>
         <h5>Personal Data</h5>
         <p>Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</p>
         <h5>Usage Data</h5>
@@ -63,7 +63,7 @@ export default class Privacy extends Component {
           <li>Security Cookies. We use Security Cookies for security purposes.</li>
         </ul>
         <h4>Use of Data</h4>
-        <p>All Turtles, LLC uses the collected data for various purposes:</p>
+        <p>All Turtles Corporation uses the collected data for various purposes:</p>
         <ul>
           <li>To provide and maintain our Service</li>
           <li>To notify you about changes to our Service</li>
@@ -74,8 +74,8 @@ export default class Privacy extends Component {
           <li>To detect, prevent and address technical issues</li>
         </ul>
         <h4>Legal Basis for Processing Personal Data under the General Data Protection Regulation (GDPR)</h4>
-        <p>If you are from the European Economic Area (EEA), All Turtles, LLC legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.</p>
-        <p>All Turtles, LLC may process your Personal Data because:</p>
+        <p>If you are from the European Economic Area (EEA), All Turtles Corporation legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.</p>
+        <p>All Turtles Corporation may process your Personal Data because:</p>
         <ul>
           <li>We need to perform a contract with you</li>
           <li>You have given us permission to do so</li>
@@ -84,23 +84,23 @@ export default class Privacy extends Component {
           <li>To comply with the law</li>
         </ul>
         <h4>Retention of Data</h4>
-        <p>All Turtles, LLC will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to effectuate the Services, comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes and enforce our legal agreements and policies.</p>
-        <p>All Turtles, LLC will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to improve and strengthen the security and/or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods.</p>
+        <p>All Turtles Corporation will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to effectuate the Services, comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes and enforce our legal agreements and policies.</p>
+        <p>All Turtles Corporation will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to improve and strengthen the security and/or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods.</p>
         <h4>Transfer of Data</h4>
         <p>Your information, including Personal Data, may be transferred to - and maintained on - computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.</p>
         <p>If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to United States and process it there.</p>
         <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
-        <p>All Turtles, LLC will take all the steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organisation or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+        <p>All Turtles Corporation will take all the steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organisation or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
         <h4>Disclosure of Data</h4>
         <h5>Business Transaction</h5>
-        <p>If All Turtles, LLC is involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice before your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+        <p>If All Turtles Corporation is involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice before your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
         <h5>Disclosure for Law Enforcement</h5>
-        <p>Under certain circumstances, All Turtles, LLC may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency, subpoena, etc). You will be notified of the request, and All Turtles, LLC will try to limit the amount and nature of the information disclosed to that of a “need to know” basis to the best of our ability. Once notified, you are also able to work with the requisite authorities to procure an injunction at your own cost and discretion.</p>
+        <p>Under certain circumstances, All Turtles Corporation may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency, subpoena, etc). You will be notified of the request, and All Turtles Corporation will try to limit the amount and nature of the information disclosed to that of a “need to know” basis to the best of our ability. Once notified, you are also able to work with the requisite authorities to procure an injunction at your own cost and discretion.</p>
         <h5>Legal Requirements</h5>
-        <p>All Turtles, LLC may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+        <p>All Turtles Corporation may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
         <ul>
           <li>To comply with a legal obligation</li>
-          <li>To protect and defend the rights or property of All Turtles, LLC</li>
+          <li>To protect and defend the rights or property of All Turtles Corporation</li>
           <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
           <li>To protect the personal safety of users of the Service or the public</li>
           <li>To protect against legal liability</li>
@@ -111,7 +111,7 @@ export default class Privacy extends Component {
         <p>We do not support Do Not Track ("DNT"). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.</p>
         <p>You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.</p>
         <h4>Your Data Protection Rights under the General Data Protection Regulation (GDPR)</h4>
-        <p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. All Turtles, LLC aims to take reasonable steps to allow you to correct, amend, delete or limit the use of your Personal Data.</p>
+        <p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. All Turtles Corporation aims to take reasonable steps to allow you to correct, amend, delete or limit the use of your Personal Data.</p>
         <p>If you wish to be informed about what Personal Data we hold about you and if you want it to be removed from our systems, please contact us.</p>
         <p>In certain circumstances, you have the following data protection rights:</p>
         <p>
@@ -136,7 +136,7 @@ export default class Privacy extends Component {
         </p>
         <p>
           <strong>The right to withdraw consent. </strong>
-            You also have the right to withdraw your consent at any time where All Turtles, LLC relied on your consent to process your personal information.
+            You also have the right to withdraw your consent at any time where All Turtles Corporation relied on your consent to process your personal information.
         </p>
         <p>Please note that we may ask you to verify your identity before responding to such requests.</p>
         <p>You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA).</p>
