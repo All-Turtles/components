@@ -67,7 +67,7 @@ export default class Terms extends Component {
         <p>By continuing to access or use our Service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use the Service.</p>
         <h4>Contact Us</h4>
         <p>
-        If you have any questions about these Terms, please contact us at: <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
+          If you have any questions about these Terms, please contact us at: <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
         </p>
       </>
     )

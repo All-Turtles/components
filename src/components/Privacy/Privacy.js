@@ -116,27 +116,27 @@ export default class Privacy extends Component {
         <p>In certain circumstances, you have the following data protection rights:</p>
         <p>
           <strong>The right to access, update or delete the information we have on you. </strong>
-            Whenever made possible, you can access, update or request deletion of your Personal Data directly within your account settings section. If you are unable to perform these actions yourself, please contact us to assist you.
+          Whenever made possible, you can access, update or request deletion of your Personal Data directly within your account settings section. If you are unable to perform these actions yourself, please contact us to assist you.
         </p>
         <p>
           <strong>The right of rectification. </strong>
-            You have the right to have your information rectified if that information is inaccurate or incomplete.
+          You have the right to have your information rectified if that information is inaccurate or incomplete.
         </p>
         <p>
           <strong>The right to object. </strong>
-            You have the right to object to our processing of your Personal Data.
+          You have the right to object to our processing of your Personal Data.
         </p>
         <p>
           <strong>The right of restriction. </strong>
-            You have the right to request that we restrict the processing of your personal information.
+          You have the right to request that we restrict the processing of your personal information.
         </p>
         <p>
           <strong>The right to data portability. </strong>
-            You have the right to be provided with a copy of the information we have on you in a structured, machine-readable and commonly used format.
+          You have the right to be provided with a copy of the information we have on you in a structured, machine-readable and commonly used format.
         </p>
         <p>
           <strong>The right to withdraw consent. </strong>
-            You also have the right to withdraw your consent at any time where All Turtles Corporation relied on your consent to process your personal information.
+          You also have the right to withdraw your consent at any time where All Turtles Corporation relied on your consent to process your personal information.
         </p>
         <p>Please note that we may ask you to verify your identity before responding to such requests.</p>
         <p>You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA).</p>
@@ -149,24 +149,24 @@ export default class Privacy extends Component {
 
         <p>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.</p>
         <p>
-            You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy, located here:&nbsp;
+          You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy, located here:&nbsp;
           <a href='https://policies.google.com/privacy?hl=en'>
-              https://policies.google.com/privacy?hl=en
+            https://policies.google.com/privacy?hl=en
           </a>
         </p>
         <h5>Amplitude Analytics</h5>
         <p>
-            Amplitude Analytics is an analytics software tool for web and mobile that tracks user engagement and behavior, and real-time insight to product releases. Amplitude may use the collected data to gain insights and to refine its own products. For more information as provided in Amplitude’s privacy policy, it is located here:&nbsp;
+          Amplitude Analytics is an analytics software tool for web and mobile that tracks user engagement and behavior, and real-time insight to product releases. Amplitude may use the collected data to gain insights and to refine its own products. For more information as provided in Amplitude’s privacy policy, it is located here:&nbsp;
           <a href='https://amplitude.com/privacy'>
-              https://amplitude.com/privacy
+            https://amplitude.com/privacy
           </a>
         </p>
         <h5>AppsFlyer</h5>
 
         <p>
-            AppsFlyer is a mobile application tracking and attribution analytics platform that helps developers, brands and advertising agencies track and optimize their users' acquisition funnel and engagement, and marketing analytics. AppsFlyer may use the collected data to gain insights and to refine its own products. For more information as provided in AppFlyer’s privacy policy, it is located here:&nbsp;
+          AppsFlyer is a mobile application tracking and attribution analytics platform that helps developers, brands and advertising agencies track and optimize their users' acquisition funnel and engagement, and marketing analytics. AppsFlyer may use the collected data to gain insights and to refine its own products. For more information as provided in AppFlyer’s privacy policy, it is located here:&nbsp;
           <a href='https://www.appsflyer.com/privacy-policy/'>
-              https://www.appsflyer.com/privacy-policy
+            https://www.appsflyer.com/privacy-policy
           </a>
         </p>
         <h5>Payments</h5>
@@ -175,7 +175,7 @@ export default class Privacy extends Component {
         <p>The payment processors we work with are:</p>
         <h5>Apple Store In-App Payments</h5>
         <p>
-            Their Privacy Policy can be viewed at&nbsp;
+          Their Privacy Policy can be viewed at&nbsp;
           <a href='https://www.apple.com/legal/privacy/en-ww/'>https://www.apple.com/legal/privacy/en-ww/</a>
         </p>
         <h5>Google Play In-App Payments</h5>
