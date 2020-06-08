@@ -15,7 +15,7 @@ export default class Terms extends Component {
 
     return (
       <>
-        <p className='at-date'>Last updated: May 29, 2019</p>
+        <p>Last updated: May 29, 2019</p>
         <p>Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the www.all-turtles.com website and the associated mobile applications (together, or individually, the "Service") operated by All Turtles Corporation ("us", "we", or "our").</p>
         <p>Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service.</p>
         <p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you do not have permission to access the Service.</p>
