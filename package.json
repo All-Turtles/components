@@ -1,6 +1,6 @@
 {
   "name": "@all-turtles/components",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Reusable React components for building All Turtles projects",
   "main": "./dist/index.js",
   "files": [

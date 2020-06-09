@@ -1,4 +1,4 @@
-export const brand = '#D9534D'
+export const brand = '#EB4646'
 export const blue = '#7FB4E8'
 export const green = '#69C2A0'
 export const orange = '#F18F6D'
