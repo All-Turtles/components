@@ -58,7 +58,7 @@
     "babel-plugin-named-asset-import": "0.3.6",
     "babel-plugin-styled-components": "1.10.7",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
-    "chalk": "4.0.0",
+    "chalk": "4.1.0",
     "core-js": "3.6.5",
     "cross-env": "7.0.2",
     "css-loader": "3.5.3",
