@@ -87,7 +87,7 @@
     "regenerator-runtime": "0.13.7",
     "rimraf": "3.0.2",
     "stats-webpack-plugin": "0.7.0",
-    "style-loader": "1.2.1",
+    "style-loader": "2.0.0",
     "styled-components": "5.2.0",
     "url-loader": "4.1.1",
     "webpack": "5.24.2",
