@@ -9,7 +9,7 @@ const config = {
     ...baseConfig.plugins
   ],
   mode: 'development',
-  devtool: generateSourceMap ? 'cheap-module-inline-source-map' : false,
+  devtool: generateSourceMap ? 'inline-cheap-module-source-map' : false,
   performance: {
     hints: false
   }
