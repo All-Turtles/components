@@ -45,16 +45,16 @@ module.exports = {
   externals: { ...externals[outputType] },
   resolve: { ...resolvers },
   plugins: [...plugins.shared, ...plugins.client],
-  node: {
-    dgram: 'empty',
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty',
-    child_process: 'empty'
-  },
+  // node: {
+  //   dgram: 'empty',
+  //   fs: 'empty',
+  //   net: 'empty',
+  //   tls: 'empty',
+  //   child_process: 'empty'
+  // },
   optimization: {
-    namedModules: true,
-    noEmitOnErrors: true
+    moduleIds: 'named',
+    emitOnErrors: false
   },
   stats: {
     cached: false,
