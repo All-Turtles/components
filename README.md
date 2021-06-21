@@ -1,5 +1,7 @@
 # @all-turtles/components
 
+A note from Ryan: I updated all the dependencies to quiet dependabot alerts. In doing so, the local dev server broke. AFAIK, you can still publish to production, but ultimately the infra here needs some work, or better yet convert to rollup.
+
 A React component library for All Turtles software.
 
 📖 [Explore the components](https://all-turtles.github.io/components)
